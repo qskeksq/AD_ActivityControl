@@ -46,3 +46,4 @@ setResult(RESULT_OK, intent);
 
       }
 ```
+[전체보기](https://github.com/qskeksq/AD_ActivityControl/blob/master/app/src/main/java/com/example/administrator/activitycontrol/MainActivity.java)
