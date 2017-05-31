@@ -26,6 +26,7 @@ intent.putExtra("result", result);
 // setResult 함수는 현재 Activity 에 Intent 를 저장하기 때문에 Context 를 따로 필요로 하지 않는다.
 setResult(RESULT_OK, intent);
 ```
+[전체보기](https://github.com/qskeksq/AD_ActivityControl/blob/master/app/src/main/java/com/example/administrator/activitycontrol/SubActivity.java)
 
 ## onActivityResult
 ```java
@@ -45,5 +46,3 @@ setResult(RESULT_OK, intent);
 
       }
 ```
-
-[전체보기](https://github.com/qskeksq/AD_ActivityControl/blob/master/app/src/main/java/com/example/administrator/activitycontrol/SubActivity.java)
