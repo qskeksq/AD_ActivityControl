@@ -1,4 +1,4 @@
-# AD_ActivityControl
+# AD_ActivityControl 
 startActivityForResult-인텐트를 통한 액티비티 간 값 교환
 
 이 함수로 Activity 를 실행하면 실행된 Activity 가 종료되면서 onActivityResult 함수를 호출해준다.
@@ -11,6 +11,7 @@ Intent intent = new Intent(this, SubActivity.class);
 intent.putExtra("key", editText.getText().toString());
 startActivityForResult(intent, REQ_CODE);
 ```
+[전체보기](https://github.com/qskeksq/AD_ActivityControl/blob/master/app/src/main/java/com/example/administrator/activitycontrol/MainActivity.java)
 
 ## setResult
 호출되는 서브클래스에 작성되는 코드 
