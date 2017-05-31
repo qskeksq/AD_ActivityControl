@@ -25,7 +25,7 @@ intent.putExtra("result", result);
 // RESULT_OK 는 부모 Activity 에 이미 정의되어 있는 플래그값으로 된 처리가 성공적이라는 것을 의미한다.
 // setResult 함수는 현재 Activity 에 Intent 를 저장하기 때문에 Context 를 따로 필요로 하지 않는다.
 setResult(RESULT_OK, intent);
-
+```
 
 ## onActivityResult
 ```java
@@ -45,3 +45,5 @@ setResult(RESULT_OK, intent);
 
       }
 ```
+
+[전체보기](https://github.com/qskeksq/AD_ActivityControl/blob/master/app/src/main/java/com/example/administrator/activitycontrol/SubActivity.java)
